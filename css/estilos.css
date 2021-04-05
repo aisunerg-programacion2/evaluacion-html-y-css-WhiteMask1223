@@ -1,0 +1,148 @@
+body {
+    background: #1f1f1f;
+    color: white;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header {
+  background: #0e0e0e;
+}
+
+  header h1 {
+    font-weight: bold;
+    font-size: 30px;
+    height: 70px;
+    padding-top: 30px;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111111;
+  }
+  
+  nav ul li {
+    float:left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(37, 37, 37);
+  }
+
+
+
+.fondo {
+    background: #111111;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.25s;
+}
+
+
+    .fondo section {
+      padding: 10px;
+    }
+
+    section h2 {
+      background: #1b1b1b;
+      height: 50px;
+      padding-top: 20px;
+      width: 400px;
+     text-align: center;
+      border-radius: 20px;
+    }
+
+    section h3 {
+        background: #1b1b1b;
+        height: 25px;
+        width: 200px;
+        text-align: center;
+        border-radius: 20px;
+      }
+
+    .a1 {
+      background: #0c0c0c;
+      margin: auto;
+      margin-bottom: 10px;
+      padding: 15px;
+      width: 1000px;
+      height: max-content;
+      border-radius: 20px;
+    }
+
+    .a2 {
+        background: #0c0c0c;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 600px;
+        height: max-content;
+        border-radius: 20px;
+      }
+
+    .a3 {
+      background: #0c0c0c;
+      margin: auto;
+      margin-bottom: 10px;
+      padding: 15px;
+      width: 1000px;
+      height: max-content;
+      border-radius: 20px;
+    }
+
+        .a3 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .logo {
+            vertical-align: middle;
+            animation-name: cambio;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes cambio {
+            0% {width: 15px; height: 15px;}
+            10% {width: 20px; height: 20px;}
+            30% {width: 15px; height: 15px;}
+            100% {width: 15px; height: 15px;}
+        }
+
+table, tr, td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #797979;
+    margin: 5px;
+}
+
+    tr:hover{
+        background-color: #141414;
+    }
+
+
+    table {
+      width: 92%;
+      margin: 20px;
+      text-align: center;
+    }   
+
+    #cabezat {
+        height: 35px;
+        font-size: 20px;
+    }
+
+    tr {
+        height: 25px;
+    }
